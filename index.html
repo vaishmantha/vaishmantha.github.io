@@ -2,19 +2,15 @@
 layout: default
 ---
 
-<h1>Blog</h1>
+<h2>Blog</h2>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-      <!-- <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div> -->
-
-      <h2>{{ post.date | date: "%B %e, %Y" }} >> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
+      <li>
+        <div class="entry">
+          <div class="marker"><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo;</div>
+          <div class="link"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+      </li>
     </article>
   {% endfor %}
 </div>
