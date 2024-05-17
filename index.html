@@ -5,14 +5,12 @@ layout: default
 <h2 style="margin-bottom: -7px">Blog</h2>
 <ul class="posts posts_ul">
   {% for post in site.posts %}
-    <article class="post">
       <li>
         <div class="entry">
           <div class="marker"><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo;</div>
           <div class="link"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
       </li>
-    </article>
   {% endfor %}
 </ul>
 <h2 style="margin-bottom: -7px">About</h2>
-
+I'm a software engineer at Meta! I'm interested in graphics, systems, and am trying to learn more about generative AI.
