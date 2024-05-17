@@ -110,6 +110,23 @@ img {
   max-width: 100%;
 }
 
+.posts {
+  margin: 15px 0 0 15px;
+  padding-left: initial;
+  text-overflow: balance;
+}
+.posts li .entry {
+  display: flex;
+  align-items: flex-start;
+}
+.posts li .marker {
+  flex-shrink: 0;
+  margin-right: 5px;
+}
+.posts li .link {
+  display: flex;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -240,23 +257,6 @@ nav {
 //
 // .main
 //
-
-.posts {
-  margin: 15px 0 0 15px;
-  padding-left: initial;
-  text-overflow: balance;
-}
-.posts li .entry {
-  display: flex;
-  align-items: flex-start;
-}
-.posts li .marker {
-  flex-shrink: 0;
-  margin-right: 5px;
-}
-.posts li .link {
-  display: flex;
-}
 
 .posts > .post {
   padding-bottom: 2em;
