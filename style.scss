@@ -17,6 +17,21 @@ html {
   font-size: 100%;
 }
 
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: monospace, sans-serif;
+  font-size: 75%;
+}
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
@@ -31,12 +46,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: sans-serif;
+  color: #222;
   font-weight: bold;
-
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 0 0 15px;
   padding: 0;
 
   @include mobile {
@@ -110,20 +124,20 @@ img {
   max-width: 100%;
 }
 
-.posts {
+.posts_ul {
   margin: 15px 0 0 15px;
   padding-left: initial;
   text-overflow: balance;
 }
-.posts li .entry {
+.posts_ul li .entry {
   display: flex;
   align-items: flex-start;
 }
-.posts li .marker {
+.posts_ul li .marker {
   flex-shrink: 0;
   margin-right: 5px;
 }
-.posts li .link {
+.posts_ul li .link {
   display: flex;
 }
 
