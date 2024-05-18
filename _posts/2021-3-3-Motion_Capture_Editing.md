@@ -3,7 +3,9 @@ layout: post
 title: Motion Capture Editing
 ---
 
-**Objective:** Explore filtering and displacement techniques for working with motion capture data.
+**Objective:**
+
+Explore filtering and displacement techniques for working with motion capture data.
 
 I wanted to create two distinct edits of a motion capture walk cycle:
 1. try to change the apparent personality of the character
