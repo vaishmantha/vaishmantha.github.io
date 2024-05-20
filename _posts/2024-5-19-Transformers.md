@@ -1,4 +1,3 @@
-# Transformers
 ## Intro
 * GPT: Generative (bots that generate new text) Pre-trained (model learned from a massive amount of data) *Transformers* (specific kind of NN)
 * Original transformer developed by Google in 2017 was for text language translation
@@ -12,7 +11,7 @@
 
 ## Questions
 1. How does embedding model get trained?
-2. The result is a probability distribution over tokens, is there an entry for each token though?
+2. The result is a probability distribution over tokens, is there an entry for each token?
 
 ## Links
 * [Visual intro to Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M)
