@@ -41,8 +41,6 @@ Attention(Q, K, V) = softmax(QK^T / []) * V
 * <u>Up-projection</u>
 * <u>Down-projection</u>
 
-
-<u>Query</u>
 ## Questions
 1. How do multi-lingual models work? How large do these models get, given the number of tokens in the output distribution is much larger?
 2. How does embedding model get trained? Word2Vec is a popular one.
